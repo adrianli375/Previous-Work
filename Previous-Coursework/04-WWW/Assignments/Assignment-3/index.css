@@ -1,0 +1,38 @@
+#outmost {
+    width: 1000px;
+    margin: 1rem auto 0;
+}
+
+#container {
+    width: 100%;
+    padding: 30px 10px;
+    box-sizing: border-box;
+    border: dotted gray;
+    background-color: rgb(190, 241, 241);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    position: relative;
+}
+
+#container > div {
+    position: relative;
+}
+
+.eye {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#toggle {
+    background-color: #FDA18D;
+    border: 1px black solid;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 1.5rem;
+    width: 10%;
+    text-align: center;
+}
